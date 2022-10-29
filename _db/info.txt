@@ -1,0 +1,33 @@
+Chicken Fillet
+
+It’s simple. A juicy white chicken breast encased in our special crispy coating with cool mustard mayo sauce, fresh tomatoes and onions, crispy lettuce, all wrapped in a fresh sesame seed bun. 
+
+price: 80 
+
+chicken_fillet.jpg
+
+===================================
+McFalafel
+
+Three pieces of falafel garnished with tomatoes, lettuce, onion, pickles and topped with Tehina sauce, all wrapped inside a freshly backed tortilla wrap.
+
+Price: 20
+
+falafel.jpg
+
+===================================
+Egg & Cheese Wrap
+
+A good day starts with scrambled eggs, one piece of chicken roll and one slice of cheddar cheese all wrapped in a toasted tortilla.
+
+Price: 45
+
+egg_wrap.jpg
+===================================
+Fanta
+
+Refreshing, fruity, tangy, and tempting. Go for it!
+
+Price: 20
+
+fanta.jpg

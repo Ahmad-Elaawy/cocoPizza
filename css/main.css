@@ -1,0 +1,296 @@
+/*
+Theme Name: Coco v.1.0
+Theme URI: http://www.coco.com/coco
+Author: Elaraby
+
+Main Color: #e94d32
+Secondary Color:
+
+[Table of contents]
+0.  Bootstrap Button Rese
+1.  Navbar Section
+2.  Slider Section
+3.  Offer Section
+4.  Dish Section
+5.  Features Section
+6.  Book Section
+7.  Footer Section
+
+8. Responsive
+
+*/
+
+
+/*=============================================================================*/
+/* 0. reset & initiate styles */
+/*=============================================================================*/
+* {
+    font-family: 'Lora', serif;    
+}
+
+.body-top {
+    padding-top: 55px;
+}
+
+.header-section {
+    background-color: #333;
+    background-image: url("../images/bg01.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 200px;
+    margin-bottom: 40px;
+    font-style:italic;
+}
+.header-section h1 {
+    margin-top:80px !important;
+}
+
+.btn-warning {
+    background:#e94d32;
+    border:thin solid #e94d32;    
+    color:#FFF;
+    border-radius:0;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+}
+.btn-warning:hover {   
+    background:#ffffff; 
+    border:thin solid #e94d32;    
+    color:#e94d32 !important;
+    
+}
+.btn-outline-warning {
+    border:thin solid #e94d32;
+    border-radius:0;
+    font-weight: bold;
+}
+.btn-outline-warning:hover {
+    background:#e94d32;
+    border:thin solid #e94d32;
+    color:white !important;        
+}
+
+.bg-black {
+    background:#252428 !important;
+}
+/* End Button reset */
+
+
+/*=============================================================================*/
+/* 1.  Navbar Section */
+/*=============================================================================*/
+
+nav .nav-item {
+    padding-left:2rem;
+    padding-right:1.6rem;
+    
+}
+.nav-link {
+    font-size:1.1rem;
+    letter-spacing: 0.05em;
+    color:#333 !important; 
+    font-weight: 600;   
+}
+.active > .nav-link {
+    color:#e94d32 !important;    
+}
+.nav-link:hover {
+    color:#e94d32 !important;            
+}
+
+/* End Navbar Section */
+
+
+/*=============================================================================*/
+/* 2.  Slider Section */
+/*=============================================================================*/
+
+.carousel-item {
+    width:100%;
+    height:100vh;
+    
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+.carousel-caption {
+    position: absolute;    
+    width:50%;
+    left: 15%;
+    top: -50%;        
+    transform: translateY(50%);
+    color: #000;
+    text-align: left;    
+}
+
+.carousel-caption h2 {
+    font-size:4rem;
+}
+/* End Slider Section */
+
+
+/*=============================================================================*/
+/* 3.  Offer Section */
+/*=============================================================================*/
+
+.offer-section {
+    width:100%;    
+    height:100%;
+    background-image:url('../images/offer.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.offer-section .row {
+    min-height: 560px;
+}
+.offer-section h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height:110%;
+}
+
+.offer-section .offer-price {
+    font-weight: bold;
+    font-size: 3rem;
+    color:tomato;
+}
+
+/* End offer Section */
+
+
+/*=============================================================================*/
+/* 4.  Dish Section */
+/*=============================================================================*/
+.dish-section {
+    width:100%;    
+    min-height: 760px;   
+    background-image:url('../images/dish.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.dish-section h3 {
+    margin-top:60px;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height:110%;
+}
+
+.dish-section h4.card-title {    
+    font-size:1.2rem;
+    font-weight: bold;
+}
+
+.dish-section p.price {    
+    color:tomato;
+    font-weight: bolder;
+    font-size:1.2rem
+}
+/* End Dish Section */
+
+
+/*=============================================================================*/
+/* 5.  Features Section */
+/*=============================================================================*/
+
+.features-section h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.features-section i[class^='fas'] {
+    font-size: 3.2rem;
+    color:tomato;
+    padding: 40px 20px 10px 20px;
+}
+
+
+/* End Features Section */
+
+/*=============================================================================*/
+/* 6.  Book Section */
+/*=============================================================================*/
+.book-section {
+    position: relative;
+}
+.bg-overlay {            
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    min-height: 240px;
+    background-image: url('../images/book.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index:-1;
+}
+
+.book-section h3 {    
+    font-weight: bold;
+    font-size: 3rem;        
+}
+
+.book-section label {
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}
+
+.book-section .form-control {
+    border-radius: 0;
+    border:thin solid #DDD;
+    /* padding:20px 10px; */
+    margin:0 0 20px;
+}
+.book-section .form-control::placeholder {
+    
+    color:#BBB;
+}
+/* End Book Section */
+
+/*=============================================================================*/
+/* 7.  Footer Section */
+/*=============================================================================*/
+.footer-section {
+    padding-top:80px;
+    padding-bottom:30px;
+}
+.footer-section .address {
+    font-size:0.95rem !important;
+    color:red;
+}
+
+.footer-section .form-control::placeholder {
+    font-size:0.9rem;
+    color:#BBB;
+}
+
+.footer-section .border-gray {
+    border-top:thin solid #666;
+    
+}
+.footer-section h6, .footer-section a {
+    font-family: Arial, sans-serif !important;    
+}
+
+.footer-section a.social:hover {
+    color:tomato !important;
+}
+/* End Footer Section */
+
+
+/*=============================================================================*/
+/* 8.  Responsive */
+/*=============================================================================*/
+
+@media only screen AND (max-width: 768px) {
+    .carousel-caption h2 {
+        font-size:2.5rem;
+    }
+    .carousel-caption p {
+        font-size:1.2rem;
+    }
+}
